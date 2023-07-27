@@ -33,6 +33,26 @@ let mySampleObject = {
 
 //Make sure to make at least 3 animal objects with these keys inside of the myZooAnimals array!
 
-let myZooAnimals;
+let myZooAnimals = [
+  {
+    animalType: "Lion",
+    name: "Simba",
+    age: 5,
+    pictureURL: "https://images.unsplash.com/photo-1562080411-a1afc4016a64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=723&q=80"
+  },
+  {
+    animalType: "Elephant",
+    name: "Dumbo",
+    age: 10,
+    pictureURL: "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80"
+  },
+  {
+    animalType: "Giraffe",
+    name: "Melman",
+    age: 7,
+    pictureURL: "https://images.unsplash.com/photo-1547721064-da6cfb341d50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+  }
+];
+
 
 //END OF ASSIGNMENT
